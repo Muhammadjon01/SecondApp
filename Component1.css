@@ -1,0 +1,39 @@
+h1{
+    width: 200px;
+    text-align: center;
+    border-bottom: 2px solid gray;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.container{
+    width: 1000px;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.first{
+    width: 300px;
+    height: 450px;
+    box-shadow: 0px 0px 8px 10px #cecece;
+}
+
+h4{
+    color: #cecece;
+}
+
+p, h4, h2{
+    padding-left: 10px;
+}
+
+a{
+    padding: 5px 110px 5px 115px;
+    border: 1px solid #cecece;
+    background-color: #cecece;
+    margin-left: 10px;
+    text-decoration: none;
+    color: black;
+}
